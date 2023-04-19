@@ -1,0 +1,33 @@
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# environment variables
+*.ini
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Mac crap
+.DS_Store
+
+# Notepad++ crap
+*.bak
+
+# ignore go module and deps for now
+*.mod 
+*.sum
+
+# ignore generated log files
+logs.txt
