@@ -25,9 +25,5 @@ ehthumbs.db
 # Notepad++ crap
 *.bak
 
-# ignore go module and deps for now
-*.mod 
-*.sum
-
 # ignore generated log files
 logs.txt
