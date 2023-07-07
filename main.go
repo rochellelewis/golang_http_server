@@ -46,7 +46,8 @@ func handler(w http.ResponseWriter, r *http.Request) {
 			Err(err)
 		}
 
-		// read req body
+		// read out marshalled data from req body
+		// fmt.Printf("Req body data type: %T\n", r.Body)
 		fmt.Println("POST Was called!", string(n))
 		// sendToWebhook(bytes.NewBuffer(n))
 
